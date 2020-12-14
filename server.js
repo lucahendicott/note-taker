@@ -7,7 +7,7 @@ const PORT = 5000;
 //set up to receive JSON and string data
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-app.use(express.static("public"))
+app.use(express.static(__dirname + "/public"))
 
 //routes as middleware
 app.use("/api", apiRoutes)

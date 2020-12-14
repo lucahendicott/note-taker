@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const {nanoid} = require("nanoid")
 const fs = require('fs')
 const path = require("path");
 const db = path.join(__dirname, "../db/db.json");
@@ -10,5 +9,9 @@ router.get("/notes", (req, res) => {
         return res.json(JSON.parse(data));
     });
 });
+
+router.post("/notes", (req, res) => {
+console.log(req.body)
+})
 
 module.exports = router

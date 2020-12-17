@@ -1,7 +1,7 @@
 # Note Taker   
 
 ## Description  
-A simple application that saves any notes a user enters with a note title and note decription. The user can save and delete any notes at any time. Any notes saved will still be available upon a page reload.    
+A simple application built with Node JS and Express. The app saves any notes a user enters with a note title and note decription. The user can save and delete any notes at any time. Any notes saved will still be available upon a page reload. 
 
 ## Table of Contents  
 * [Installation](#installation)  
